@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>hello github io</h1>
-</body>
+<head><title>フレーム使用例</title></head>
+<frameset rows="100,*">
+    <frame src="frame_ue.htm" name="ue">
+    <frameset cols="150,*">
+        <frame src="menu.htm" name="hidari">
+        <frame src="main.htm" name="migi">
+    </frameset>
+    <noframes>
+    このページはフレームを使用しています。
+    </noframes>
+</frameset>
 </html>
 
